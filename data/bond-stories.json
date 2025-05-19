@@ -1,0 +1,57 @@
+[
+  {
+    "id": "story-1",
+    "title": "Guardian of the Flock",
+    "dog": {
+      "name": "Max",
+      "id": "dog-3"
+    },
+    "human": "Karim, Farm Manager",
+    "story": "When predators began threatening our poultry, we were losing chickens every week. Max stepped in as a young dog and took his guardian role seriously from day one. One night, Karim heard barking and rushed out to find Max had cornered a fox trying to enter the chicken coop. Instead of attacking, Max had positioned himself between the predator and the coop, giving a warning until help arrived. Since then, our poultry losses have dropped to zero. Max and Karim now have a special bond, and Max responds to subtle commands that Karim barely needs to voice.",
+    "image": "max-karim.webp"
+  },
+  {
+    "id": "story-2",
+    "title": "Healing Companion",
+    "dog": {
+      "name": "Daisy",
+      "id": "dog-6"
+    },
+    "human": "Fatima, Local Teacher",
+    "story": "Fatima brings her special needs students to visit our farm monthly. During their first visit, a non-verbal child named Amir showed no interest in the animals until Daisy gently approached him. To everyone's surprise, Amir reached out to touch Daisy's fur and broke into a huge smile. Over subsequent visits, Daisy seemed to recognize Amir, always approaching him calmly. Fatima reports that Amir now speaks about 'his dog' at school and looks forward to the farm visits. Daisy's gentle nature has opened a new world for this child.",
+    "image": "daisy-children.webp"
+  },
+  {
+    "id": "story-3",
+    "title": "The Unlikely Friendship",
+    "dog": {
+      "name": "Cooper",
+      "id": "dog-11"
+    },
+    "human": "Ahmed, Regular Customer",
+    "story": "Ahmed was terrified of dogs after a childhood incident. When he first came to buy eggs, he would wait in his car until someone brought his order out. One day, Cooper approached his car window and just sat there wagging his tail. Something about Cooper's mixed-breed appearance and friendly demeanor made Ahmed curious. Over several visits, Ahmed progressed from watching Cooper from afar to actually petting him. Today, Ahmed brings treats for Cooper and even volunteers to walk him when visiting the farm. 'This dog cured my 20-year fear,' he tells everyone.",
+    "image": "cooper-ahmed.webp"
+  },
+  {
+    "id": "story-4",
+    "title": "Farm Ambassador",
+    "dog": {
+      "name": "Charlie",
+      "id": "dog-8"
+    },
+    "human": "School Groups",
+    "story": "Charlie has a special role during our educational farm tours for school children. Before the children arrive, we brief them about farm safety, but many are still nervous around the animals. Charlie serves as the perfect ice-breaker, demonstrating gentle interactions and putting everyone at ease. One memorable tour involved a group of city children who had never seen farm animals before. Charlie patiently allowed 30 children to pet him and seemed to understand that these visitors needed extra gentleness. The teachers reported that the interaction with Charlie was the highlight of the trip for many students.",
+    "image": "charlie-school.webp"
+  },
+  {
+    "id": "story-5",
+    "title": "Mother's Intuition",
+    "dog": {
+      "name": "Luna",
+      "id": "dog-2"
+    },
+    "human": "Rahima, Kennel Assistant",
+    "story": "During Luna's second pregnancy, we noticed something wasn't right. She became restless and kept bringing Rahima to the whelping area days before she was due. Trusting Luna's instincts, Rahima stayed with her and called our veterinarian. Luna delivered her puppies 48 hours early, and one puppy was in a breech position requiring assistance. Thanks to Luna's clear communication with Rahima and their special bond, all puppies were safely delivered. Luna now seeks out Rahima whenever she's expecting, and they share an incredible understanding that goes beyond words.",
+    "image": "luna-rahima.webp"
+  }
+]

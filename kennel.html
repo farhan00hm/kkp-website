@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Meet our dogs and puppies at KKP Kennel - We raise German Shepherds and Labrador Retrievers with excellent temperament and health at our farm in Cumilla, Bangladesh.">
+    <meta name="keywords" content="dog kennel, german shepherd, labrador retriever, puppies, dog breeding, cumilla, bangladesh, dog adoption">
+
+    <title>Kennel | KKP – Khundkar Khamar Prakalpa</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/logo/kkp-favicon.png">
+
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Additional Custom CSS for Kennel Page -->
+    <style>
+        /* Timeline styling */
+        .timeline {
+            list-style-type: none;
+            position: relative;
+            padding-left: 30px;
+        }
+
+        .timeline:before {
+            content: ' ';
+            background: #dee2e6;
+            display: inline-block;
+            position: absolute;
+            left: 9px;
+            width: 2px;
+            height: 100%;
+            z-index: 1;
+        }
+
+        .timeline-item {
+            position: relative;
+        }
+
+        .timeline-item:before {
+            content: ' ';
+            background: var(--deep-green);
+            display: inline-block;
+            position: absolute;
+            border-radius: 50%;
+            left: -30px;
+            width: 20px;
+            height: 20px;
+            z-index: 2;
+            top: 0;
+        }
+
+        .timeline-date {
+            display: block;
+            font-weight: 600;
+            color: var(--deep-green);
+            margin-bottom: 5px;
+        }
+
+        /* Dog filter tabs */
+        .dog-filter-tabs {
+            margin-bottom: 2rem;
+        }
+
+        .dog-filter-tabs .nav-link {
+            color: var(--dark-gray);
+            border-radius: 0;
+            border: none;
+            border-bottom: 3px solid transparent;
+            padding: 0.5rem 1rem;
+            margin-right: 1rem;
+            transition: all 0.3s ease;
+        }
+
+        .dog-filter-tabs .nav-link.active {
+            color: var(--deep-green);
+            border-bottom-color: var(--gold);
+            background-color: transparent;
+        }
+
+        .dog-filter-tabs .nav-link:hover {
+            color: var(--deep-green);
+            border-bottom-color: var(--light-gray);
+        }
+
+        /* Video container */
+        .video-container {
+            position: relative;
+            overflow: hidden;
+            width: 100%;
+            padding-top: 56.25%; /* 16:9 Aspect Ratio */
+        }
+
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Header -->
+<header id="header"></header>
+
+<!-- Page Title -->
+<section class="py-5" style="background-color: var(--light-gray);">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h1>Our Kennel</h1>
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb justify-content-center">
+                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Kennel</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Kennel Introduction -->
+<section class="section">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6 mb-4 mb-lg-0">
+                <div class="about-image">
+                    <img src="img/kennel/kennel-hero.webp" alt="KKP Kennel Dogs" class="img-fluid rounded shadow">
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <h2 class="mb-4">Welcome to Our Kennel</h2>
+                <p>At KKP Kennel, we are dedicated to raising healthy, well-socialized dogs with excellent temperaments and sound health. Our focus is on quality breeding of German Shepherds and Labrador Retrievers that excel as both working dogs and family companions.</p>
+                <p>Our dogs live in a natural farm environment where they have plenty of space to exercise, play, and express their natural behaviors. Each of our dogs has a distinct personality and role at the farm, from guardians protecting our livestock to ambassadors welcoming visitors.</p>
+                <p>We follow responsible breeding practices, with careful selection of breeding pairs based on temperament, health, and conformation. Each puppy born at KKP receives excellent care, proper socialization, and complete health checks before going to their forever homes.</p>
+                <a href="#our-dogs" class="btn btn-primary mt-3">Meet Our Dogs</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Guardian Dogs Video -->
+<section class="section bg-light">
+    <div class="container">
+        <h2 class="section-title">Guardian Dogs in Action</h2>
+        <p class="text-center mb-4">Our guardian dogs play a vital role in protecting our farm and livestock. Watch them in action as they patrol, alert, and secure our agricultural operations.</p>
+
+        <div class="row">
+            <div class="col-lg-8 offset-lg-2">
+                <div class="video-container mb-4">
+                    <!-- Replace with your actual YouTube embed code -->
+                    <iframe src="https://www.youtube.com/embed/VIDEO_ID" title="Guardian Dogs at KKP" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <p class="text-center">Our German Shepherds are trained to protect our poultry, cattle, and farm perimeters. They provide an environmentally friendly and effective security solution that aligns with our sustainable farming philosophy.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Our Dogs Section -->
+<section class="section" id="our-dogs">
+    <div class="container">
+        <h2 class="section-title">Meet Our Dogs</h2>
+        <p class="text-center mb-4">Each of our dogs has a unique personality and special role at KKP Farm. Get to know our pack members below.</p>
+
+        <!-- Dog Filters -->
+        <ul class="nav nav-tabs dog-filter-tabs justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link active" href="#" data-dog-filter="breed" data-filter-value="all">All Dogs</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" data-dog-filter="breed" data-filter-value="german-shepherd">German Shepherds</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" data-dog-filter="breed" data-filter-value="labrador-retriever">Labradors</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" data-dog-filter="gender" data-filter-value="male">Males</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" data-dog-filter="gender" data-filter-value="female">Females</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" data-dog-filter="role" data-filter-value="guardian">Guardians</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" data-dog-filter="role" data-filter-value="breeding">Breeding Dogs</a>
+            </li>
+        </ul>
+
+        <!-- Dogs Grid -->
+        <div class="row dogs-container mt-4">
+            <!-- Loading indicator -->
+            <div class="col-12 text-center py-5 loading-dogs">
+                <div class="spinner-border text-primary" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+                <p class="mt-2">Loading our dogs...</p>
+            </div>
+            <!-- Dog cards will be dynamically loaded here -->
+        </div>
+    </div>
+</section>
+
+<!-- Human-Dog Bond Stories -->
+<section class="section bg-light">
+    <div class="container">
+        <h2 class="section-title">Stories of Connection</h2>
+        <p class="text-center mb-4">The bond between humans and dogs is special and profound. Here are some heartwarming stories that showcase these unique connections at KKP Farm.</p>
+
+        <div class="bond-stories-container">
+            <!-- Loading indicator -->
+            <div class="text-center py-4 loading-stories">
+                <div class="spinner-border text-primary" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+                <p class="mt-2">Loading stories...</p>
+            </div>
+            <!-- Stories will be dynamically loaded here -->
+        </div>
+    </div>
+</section>
+
+<!-- Breeding Program -->
+<section class="section">
+    <div class="container">
+        <h2 class="section-title">Our Breeding Program</h2>
+        <p class="text-center mb-4">We are committed to responsible breeding practices that prioritize health, temperament, and conformation. Our breeding program aims to produce puppies that excel as both working dogs and beloved family companions.</p>
+
+        <!-- Breeding Tabs -->
+        <ul class="nav nav-tabs justify-content-center mb-4">
+            <li class="nav-item">
+                <a class="nav-link active" id="active-tab" data-bs-toggle="tab" href="#active-litters">Active Litters</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="upcoming-tab" data-bs-toggle="tab" href="#upcoming-litters">Upcoming Litters</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="completed-tab" data-bs-toggle="tab" href="#completed-litters">Previous Litters</a>
+            </li>
+        </ul>
+
+        <!-- Breeding Tab Content -->
+        <div class="tab-content">
+            <!-- Active Litters -->
+            <div class="tab-pane fade show active" id="active-litters">
+                <div class="active-litters-container breeding-container">
+                    <!-- Loading indicator -->
+                    <div class="text-center py-4 loading-breeding">
+                        <div class="spinner-border text-primary" role="status">
+                            <span class="visually-hidden">Loading...</span>
+                        </div>
+                        <p class="mt-2">Loading active litters...</p>
+                    </div>
+                    <!-- Active litters will be dynamically loaded here -->
+                </div>
+            </div>
+
+            <!-- Upcoming Litters -->
+            <div class="tab-pane fade" id="upcoming-litters">
+                <div class="upcoming-litters-container breeding-container">
+                    <!-- Loading indicator -->
+                    <div class="text-center py-4 loading-breeding">
+                        <div class="spinner-border text-primary" role="status">
+                            <span class="visually-hidden">Loading...</span>
+                        </div>
+                        <p class="mt-2">Loading upcoming litters...</p>
+                    </div>
+                    <!-- Upcoming litters will be dynamically loaded here -->
+                </div>
+            </div>
+
+            <!-- Previous Litters -->
+            <div class="tab-pane fade" id="completed-litters">
+                <div class="completed-litters-container breeding-container">
+                    <!-- Loading indicator -->
+                    <div class="text-center py-4 loading-breeding">
+                        <div class="spinner-border text-primary" role="status">
+                            <span class="visually-hidden">Loading...</span>
+                        </div>
+                        <p class="mt-2">Loading previous litters...</p>
+                    </div>
+                    <!-- Previous litters will be dynamically loaded here -->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Adoption Process -->
+<section class="section bg-light">
+    <div class="container">
+        <h2 class="section-title">Adoption Process</h2>
+        <div class="row mb-5">
+            <div class="col-lg-8 offset-lg-2">
+                <p class="text-center mb-4">We want to ensure that our puppies go to loving, prepared homes where they will thrive. Our adoption process is designed to match each puppy with the right family.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 text-center">
+                    <div class="card-body">
+                        <div class="mb-3">
+                            <span class="display-4" style="color: var(--gold);">1</span>
+                        </div>
+                        <h4 class="card-title">Inquiry</h4>
+                        <p class="card-text">Start by contacting us about available puppies or upcoming litters. We'll ask about your living situation, experience with dogs, and what you're looking for in a companion.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 text-center">
+                    <div class="card-body">
+                        <div class="mb-3">
+                            <span class="display-4" style="color: var(--gold);">2</span>
+                        </div>
+                        <h4 class="card-title">Reservation</h4>
+                        <p class="card-text">Once we've determined a good match, you can reserve a puppy with a deposit. We'll keep you updated with photos and progress reports as your puppy grows.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 text-center">
+                    <div class="card-body">
+                        <div class="mb-3">
+                            <span class="display-4" style="color: var(--gold);">3</span>
+                        </div>
+                        <h4 class="card-title">Going Home</h4>
+                        <p class="card-text">Puppies go to their new homes at 8-10 weeks of age. They come with vaccination records, health certificate, deworming treatment, microchip, and a starter pack with food and care instructions.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-4">
+            <div class="col-lg-8 offset-lg-2">
+                <div class="card">
+                    <div class="card-header bg-primary text-white">
+                        <h5 class="mb-0">What's Included</h5>
+                    </div>
+                    <div class="card-body">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item d-flex">
+                                <i class="fas fa-check-circle me-3 mt-1" style="color: var(--deep-green);"></i>
+                                <div>
+                                    <strong>Health Certificate</strong>
+                                    <p class="mb-0">Veterinary examination and health certificate issued shortly before going home</p>
+                                </div>
+                            </li>
+                            <li class="list-group-item d-flex">
+                                <i class="fas fa-check-circle me-3 mt-1" style="color: var(--deep-green);"></i>
+                                <div>
+                                    <strong>Vaccinations & Deworming</strong>
+                                    <p class="mb-0">Age-appropriate vaccinations and multiple deworming treatments</p>
+                                </div>
+                            </li>
+                            <li class="list-group-item d-flex">
+                                <i class="fas fa-check-circle me-3 mt-1" style="color: var(--deep-green);"></i>
+                                <div>
+                                    <strong>Microchip</strong>
+                                    <p class="mb-0">Permanent identification for safety and security</p>
+                                </div>
+                            </li>
+                            <li class="list-group-item d-flex">
+                                <i class="fas fa-check-circle me-3 mt-1" style="color: var(--deep-green);"></i>
+                                <div>
+                                    <strong>Health Guarantee</strong>
+                                    <p class="mb-0">30-day health guarantee against congenital issues</p>
+                                </div>
+                            </li>
+                            <li class="list-group-item d-flex">
+                                <i class="fas fa-check-circle me-3 mt-1" style="color: var(--deep-green);"></i>
+                                <div>
+                                    <strong>Starter Pack</strong>
+                                    <p class="mb-0">Food sample, care instructions, and training tips</p>
+                                </div>
+                            </li>
+                            <li class="list-group-item d-flex">
+                                <i class="fas fa-check-circle me-3 mt-1" style="color: var(--deep-green);"></i>
+                                <div>
+                                    <strong>Lifetime Support</strong>
+                                    <p class="mb-0">Ongoing advice and assistance throughout your dog's life</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Puppy Inquiry Form -->
+<section class="section">
+    <div class="container">
+        <h2 class="section-title">Puppy Inquiry</h2>
+        <div class="row">
+            <div class="col-lg-8 offset-lg-2">
+                <p class="text-center mb-4">Interested in a puppy? Fill out this form to get in touch with us. We'll respond as soon as possible to discuss available puppies or upcoming litters.</p>
+
+                <div id="breeding-info" class="mb-4">
+                    <!-- This will be populated when a specific breeding is selected -->
+                </div>
+
+                <form id="puppy-inquiry-form">
+                    <input type="hidden" id="breeding-id" name="breeding-id">
+
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label for="name" class="form-label">Your Name *</label>
+                            <input type="text" class="form-control" id="name" name="name" required>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label for="phone" class="form-label">Phone Number *</label>
+                            <input type="tel" class="form-control" id="phone" name="phone" required>
+                        </div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email Address *</label>
+                        <input type="email" class="form-control" id="email" name="email" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea class="form-control" id="message" name="message" rows="5" placeholder="Please tell us about your living situation, experience with dogs, and why you're interested in one of our puppies."></textarea>
+                    </div>
+
+                    <div class="d-grid">
+                        <button type="submit" class="btn btn-primary">Submit Inquiry</button>
+                    </div>
+
+                    <p class="text-center mt-3 text-muted small">* This will open WhatsApp with your inquiry details pre-filled. You can review and modify before sending.</p>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FAQs -->
+<section class="section bg-light">
+    <div class="container">
+        <h2 class="section-title">Frequently Asked Questions</h2>
+
+        <div class="row">
+            <div class="col-lg-8 offset-lg-2">
+                <div class="accordion" id="kennelFAQ">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                What breeds do you raise?
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#kennelFAQ">
+                            <div class="accordion-body">
+                                We specialize in German Shepherds and Labrador Retrievers. Our focus is on raising dogs with excellent temperaments, sound health, and good conformation. We occasionally have mixed breed puppies from unplanned matings, which we transparently disclose and place in appropriate homes.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                How much do your puppies cost?
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#kennelFAQ">
+                            <div class="accordion-body">
+                                Our German Shepherd puppies typically range from ৳20,000 to ৳30,000, while our Labrador Retriever puppies range from ৳15,000 to ৳25,000. Pricing varies based on the puppy's pedigree, parent accomplishments, and individual qualities. All puppies come with vaccinations, deworming, microchip, and a health guarantee.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Can I visit your kennel before deciding on a puppy?
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#kennelFAQ">
+                            <div class="accordion-body">
+                                Yes, we encourage potential adopters to visit our farm to meet our dogs and see how they are raised. Visits are by appointment only and should be scheduled at least a week in advance. During your visit, you can meet the parent dogs (when available), see our facilities, and discuss your needs and expectations with us.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                Do you ship puppies to other locations?
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#kennelFAQ">
+                            <div class="accordion-body">
+                                We can arrange transportation to Dhaka and other major cities in Bangladesh. For distant locations, we prefer that adopters come to pick up their puppies in person if possible. If this is not feasible, we can discuss transportation options on a case-by-case basis, with all transportation costs covered by the adopter.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFive">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                What health testing do you do for your breeding dogs?
+                            </button>
+                        </h2>
+                        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#kennelFAQ">
+                            <div class="accordion-body">
+                                All of our breeding dogs undergo regular veterinary examinations and are screened for breed-specific health concerns. For German Shepherds, we evaluate hip and elbow quality. For Labradors, we check for hip dysplasia and eye conditions. We maintain detailed health records for all our dogs and only breed those with good health histories and sound physical structure.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CTA Section -->
+<section class="section" style="background-color: var(--deep-green); color: white;">
+    <div class="container text-center">
+        <h2 class="mb-4" style="color: white;">Ready to Add a New Family Member?</h2>
+        <p class="mb-4">Contact us to learn more about our available puppies or to reserve a puppy from an upcoming litter.</p>
+        <a href="#puppy-inquiry-form" class="btn btn-light me-2">Inquire About Puppies</a>
+        <a href="https://wa.me/8801811936618" target="_blank" class="btn btn-outline-light">
+            <i class="fab fa-whatsapp me-2"></i>WhatsApp Us
+        </a>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer id="footer"></footer>
+
+<!-- Bootstrap JS -->
+<script src="js/bootstrap.bundle.min.js"></script>
+
+<!-- Load header and footer -->
+<script src="js/main.js"></script>
+
+<!-- Kennel page specific scripts -->
+<script src="js/kennel.js"></script>
+
+<!-- Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-E6HE2QC2LJ"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-E6HE2QC2LJ');
+</script>
+
+</body>
+</html>

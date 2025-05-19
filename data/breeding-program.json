@@ -1,0 +1,107 @@
+[
+  {
+    "id": "breeding-1",
+    "status": "Active",
+    "sire": {
+      "name": "Rex",
+      "breed": "German Shepherd",
+      "id": "dog-1"
+    },
+    "dam": {
+      "name": "Luna",
+      "breed": "German Shepherd",
+      "id": "dog-2"
+    },
+    "mating_date": "2025-02-15",
+    "expected_birth": "2025-04-19",
+    "expected_puppies": "6-8",
+    "available_puppies": 5,
+    "reserved_puppies": 2,
+    "puppy_price": 25000,
+    "colors": ["Black & Tan", "Sable"],
+    "description": "This litter will combine Rex's protective instincts with Luna's gentle temperament. Puppies are expected to have excellent structure, intelligence, and trainability. All puppies will come with vaccination records, deworming treatment, microchip, and 30-day health guarantee.",
+    "updates": [
+      {
+        "date": "2025-02-15",
+        "note": "Successful mating confirmed."
+      },
+      {
+        "date": "2025-03-10",
+        "note": "Pregnancy confirmed by veterinarian. Luna is healthy and doing well."
+      }
+    ]
+  },
+  {
+    "id": "breeding-2",
+    "status": "Upcoming",
+    "sire": {
+      "name": "Rocky",
+      "breed": "Labrador Retriever",
+      "id": "dog-5"
+    },
+    "dam": {
+      "name": "Daisy",
+      "breed": "Labrador Retriever",
+      "id": "dog-6"
+    },
+    "mating_date": "2025-03-20",
+    "expected_birth": "2025-05-23",
+    "expected_puppies": "7-9",
+    "available_puppies": 7,
+    "reserved_puppies": 0,
+    "puppy_price": 20000,
+    "colors": ["Yellow", "Black"],
+    "description": "This litter will combine Rocky's friendly outgoing nature with Daisy's gentle patient temperament. Puppies are expected to be excellent family companions with stable temperaments and good health. All puppies will come with vaccination records, deworming treatment, microchip, and 30-day health guarantee.",
+    "updates": [
+      {
+        "date": "2025-02-05",
+        "note": "Breeding planned for Daisy's next heat cycle, expected around March 20th."
+      }
+    ]
+  },
+  {
+    "id": "breeding-3",
+    "status": "Completed",
+    "sire": {
+      "name": "Rex",
+      "breed": "German Shepherd",
+      "id": "dog-1"
+    },
+    "dam": {
+      "name": "Bella",
+      "breed": "German Shepherd",
+      "id": "dog-4"
+    },
+    "mating_date": "2024-12-10",
+    "birth_date": "2025-02-12",
+    "puppies_born": 7,
+    "available_puppies": 0,
+    "reserved_puppies": 7,
+    "puppy_price": 25000,
+    "colors": ["Black & Tan", "Bi-color"],
+    "description": "This litter produced 7 healthy puppies (4 males, 3 females). All puppies have been reserved and will be ready to go to their new homes on April 9th, 2025. All puppies will have their first vaccinations, deworming treatments, microchips, and health certificates.",
+    "updates": [
+      {
+        "date": "2024-12-10",
+        "note": "Successful mating confirmed."
+      },
+      {
+        "date": "2025-01-05",
+        "note": "Pregnancy confirmed by veterinarian."
+      },
+      {
+        "date": "2025-02-12",
+        "note": "Bella has delivered 7 healthy puppies - 4 males and 3 females. Mother and puppies doing well."
+      },
+      {
+        "date": "2025-02-26",
+        "note": "Puppies' eyes are open and they are starting to explore. All puppies growing well."
+      },
+      {
+        "date": "2025-03-15",
+        "note": "Puppies now 4 weeks old and starting weaning process. Personalities emerging nicely."
+      }
+    ],
+    "puppy_images": ["bella-litter-1.webp", "bella-litter-2.webp", "bella-litter-3.webp"]
+  }
+]

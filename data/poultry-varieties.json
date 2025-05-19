@@ -1,0 +1,92 @@
+[
+  {
+    "id": "chicken-1",
+    "name_en": "Rhode Island Red",
+    "name_bn": "রোড আইল্যান্ড রেড",
+    "category": "Chicken",
+    "description_en": "A dual-purpose breed known for excellent egg laying and good meat quality. Each hen lays approximately 250-300 brown eggs per year.",
+    "description_bn": "একটি দ্বি-উদ্দেশ্য প্রজাতি যা উত্কৃষ্ট ডিম পাড়া এবং ভালো মাংসের গুণমানের জন্য পরিচিত। প্রতিটি মুরগি বছরে আনুমানিক ২৫০-৩০০টি বাদামী ডিম পাড়ে।",
+    "characteristics": ["Excellent egg layer", "Good meat production", "Adaptable to local climate", "Disease resistant"],
+    "image": "rhode-island-red.webp"
+  },
+  {
+    "id": "chicken-2",
+    "name_en": "White Leghorn",
+    "name_bn": "হোয়াইট লেগহর্ন",
+    "category": "Chicken",
+    "description_en": "Famous for their high egg production, laying approximately 280-320 white eggs annually. They are light birds with excellent feed conversion efficiency.",
+    "description_bn": "উচ্চ ডিম উৎপাদনের জন্য বিখ্যাত, বার্ষিক আনুমানিক ২৮০-৩২০টি সাদা ডিম পাড়ে। এরা হালকা পাখি যাদের খাদ্য রূপান্তর দক্ষতা চমৎকার।",
+    "characteristics": ["High egg production", "Excellent feed efficiency", "Early maturity", "White eggs"],
+    "image": "white-leghorn.webp"
+  },
+  {
+    "id": "chicken-3",
+    "name_en": "Brahma",
+    "name_bn": "ব্রাহ্মা",
+    "category": "Chicken",
+    "description_en": "Large meat breed with feathered legs and feet. Known for their gentle disposition and cold hardiness. Good winter layers, producing large brown eggs.",
+    "description_bn": "পালকযুক্ত পা এবং পা সহ বড় মাংসের প্রজাতি। তাদের শান্ত স্বভাব এবং ঠান্ডা সহনশীলতার জন্য পরিচিত। ভালো শীতকালীন ডিম পাড়ে, বড় বাদামী ডিম উৎপাদন করে।",
+    "characteristics": ["Large meat breed", "Winter hardy", "Gentle temperament", "Good for confined spaces"],
+    "image": "brahma.webp"
+  },
+  {
+    "id": "chicken-4",
+    "name_en": "Sonali",
+    "name_bn": "সোনালী",
+    "category": "Chicken",
+    "description_en": "A cross breed developed in Bangladesh by crossing Rhode Island Red with Fayoumi. Hardy, disease resistant and well-adapted to local conditions.",
+    "description_bn": "বাংলাদেশে রোড আইল্যান্ড রেড এবং ফায়োউমির সংকরায়ণের মাধ্যমে উন্নত একটি ক্রস ব্রিড। শক্তিশালী, রোগ প্রতিরোধী এবং স্থানীয় অবস্থার সাথে ভালোভাবে খাপ খাওয়ানো।",
+    "characteristics": ["Disease resistant", "Adaptable to local climate", "Good egg producer", "Grows rapidly"],
+    "image": "sonali.webp"
+  },
+  {
+    "id": "duck-1",
+    "name_en": "Khaki Campbell",
+    "name_bn": "খাকি ক্যাম্পবেল",
+    "category": "Duck",
+    "description_en": "Excellent egg-laying ducks, producing 300+ eggs per year. Medium-sized with khaki-colored plumage, they are ideal for small farms.",
+    "description_bn": "চমৎকার ডিম পাড়া হাঁস, বছরে ৩০০+ ডিম উৎপাদন করে। খাকি রঙের পালকযুক্ত মাঝারি আকারের, এরা ছোট খামারের জন্য আদর্শ।",
+    "characteristics": ["Prolific egg layer", "Foraging ability", "Low maintenance", "Adaptable"],
+    "image": "khaki-campbell.webp"
+  },
+  {
+    "id": "duck-2",
+    "name_en": "Muscovy",
+    "name_bn": "মাস্কোভি",
+    "category": "Duck",
+    "description_en": "Known for their quiet nature and good meat production. They are excellent foragers and naturally good at controlling pests.",
+    "description_bn": "তাদের শান্ত প্রকৃতি এবং ভালো মাংস উৎপাদনের জন্য পরিচিত। তারা চমৎকার খাদ্য সংগ্রাহক এবং স্বাভাবিকভাবে কীটপতঙ্গ নিয়ন্ত্রণে ভালো।",
+    "characteristics": ["Lean meat quality", "Quiet nature", "Good foragers", "Pest control"],
+    "image": "muscovy.webp"
+  },
+  {
+    "id": "duck-3",
+    "name_en": "Pekin",
+    "name_bn": "পেকিন",
+    "category": "Duck",
+    "description_en": "Fast-growing meat ducks with white feathers and orange bills and feet. Reaches market weight in just 7-8 weeks.",
+    "description_bn": "সাদা পালক এবং কমলা ঠোঁট ও পা সহ দ্রুত বৃদ্ধি পাওয়া মাংসের হাঁস। মাত্র ৭-৮ সপ্তাহে বাজার ওজনে পৌঁছায়।",
+    "characteristics": ["Rapid growth", "Excellent meat producer", "Friendly disposition", "Good in confinement"],
+    "image": "pekin.webp"
+  },
+  {
+    "id": "goose-1",
+    "name_en": "Emden",
+    "name_bn": "এমডেন",
+    "category": "Goose",
+    "description_en": "Large white geese known for their meat production. They are good foragers and can be raised on pasture with minimal supplemental feed.",
+    "description_bn": "তাদের মাংস উৎপাদনের জন্য পরিচিত বড় সাদা রাজহাঁস। তারা ভালো খাদ্য সংগ্রাহক এবং ন্যূনতম সম্পূরক খাবার সহ চারণভূমিতে লালন করা যায়।",
+    "characteristics": ["Excellent meat production", "Good foragers", "Hardy", "Fast growing"],
+    "image": "emden.webp"
+  },
+  {
+    "id": "goose-2",
+    "name_en": "Chinese",
+    "name_bn": "চাইনিজ",
+    "category": "Goose",
+    "description_en": "Medium-sized geese with a distinctive knob at the base of the bill. Known for their egg-laying ability and guarding tendencies.",
+    "description_bn": "ঠোঁটের গোড়ায় স্বতন্ত্র টিউবারকল সহ মাঝারি আকারের রাজহাঁস। তাদের ডিম পাড়ার ক্ষমতা এবং পাহারাদার প্রবণতার জন্য পরিচিত।",
+    "characteristics": ["Good egg producers", "Excellent guards", "Moderate size", "Less aggressive"],
+    "image": "chinese-goose.webp"
+  }
+]
