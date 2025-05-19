@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Luna",
+    "gender": "Female",
+    "dob": "2024-11-05",
+    "description": "Luna is a gentle calf with a distinctive white star on her forehead. She's curious and often the first to greet visitors.",
+    "parentage": "Dam: Bella, Sire: Sultan",
+    "image": "luna.webp"
+  },
+  {
+    "name": "Rocky",
+    "gender": "Male",
+    "dob": "2024-09-18",
+    "description": "Rocky is a strong and playful calf with a beautiful brown coat. He enjoys running around the pasture.",
+    "parentage": "Dam: Daisy, Sire: King",
+    "image": "rocky.webp"
+  },
+  {
+    "name": "Lily",
+    "gender": "Female",
+    "dob": "2024-10-30",
+    "description": "Lily has a unique light golden coat. She's calm and enjoys being brushed and petted.",
+    "parentage": "Dam: Rose, Sire: Sultan",
+    "image": "lily.webp"
+  },
+  {
+    "name": "Bruno",
+    "gender": "Male",
+    "dob": "2024-07-12",
+    "description": "Bruno is the tallest among his peers with a deep black coat. He's developing a strong build and loves playing with hay.",
+    "parentage": "Dam: Star, Sire: Rex",
+    "image": "bruno.webp"
+  },
+  {
+    "name": "Petal",
+    "gender": "Female",
+    "dob": "2024-12-03",
+    "description": "Our youngest calf, Petal, has a delicate light red coat with white patches. She's particularly fond of her caretakers.",
+    "parentage": "Dam: Tulip, Sire: King",
+    "image": "petal.webp"
+  },
+  {
+    "name": "Orion",
+    "gender": "Male",
+    "dob": "2024-08-24",
+    "description": "Orion has a unique pattern of spots that reminds us of a starry night. He's energetic and playful.",
+    "parentage": "Dam: Galaxy, Sire: Rex",
+    "image": "orion.webp"
+  },
+  {
+    "name": "Daisy",
+    "gender": "Female",
+    "dob": "2024-06-15",
+    "description": "Daisy is one of our most social calves, often following the farm workers around. She has a beautiful cream-colored coat.",
+    "parentage": "Dam: Buttercup, Sire: Sultan",
+    "image": "daisy.webp"
+  },
+  {
+    "name": "Atlas",
+    "gender": "Male",
+    "dob": "2024-05-28",
+    "description": "Atlas is our strongest calf, already showing impressive muscle development. He has a red-brown coat and is quite protective of the younger calves.",
+    "parentage": "Dam: Bella, Sire: Titan",
+    "image": "atlas.webp"
+  },
+  {
+    "name": "Poppy",
+    "gender": "Female",
+    "dob": "2024-08-10",
+    "description": "Poppy has a distinct red coat with white socks on all four legs. She's gentle and enjoys being around people.",
+    "parentage": "Dam: Rose, Sire: King",
+    "image": "poppy.webp"
+  },
+  {
+    "name": "Bolt",
+    "gender": "Male",
+    "dob": "2024-07-30",
+    "description": "Bolt earned his name because he's the fastest runner among the calves. He has a sleek black coat with a white streak on his face.",
+    "parentage": "Dam: Star, Sire: Titan",
+    "image": "bolt.webp"
+  },
+  {
+    "name": "Willow",
+    "gender": "Female",
+    "dob": "2024-11-20",
+    "description": "Willow is slender with long legs and a light brown coat. She's quiet but very observant.",
+    "parentage": "Dam: Tulip, Sire: Rex",
+    "image": "willow.webp"
+  },
+  {
+    "name": "Samson",
+    "gender": "Male",
+    "dob": "2024-04-12",
+    "description": "Our oldest calf, Samson, has a thick gray coat and is already showing signs of becoming a magnificent bull.",
+    "parentage": "Dam: Galaxy, Sire: Titan",
+    "image": "samson.webp"
+  },
+  {
+    "name": "Clover",
+    "gender": "Female",
+    "dob": "2024-09-05",
+    "description": "Clover is easy to spot with her unique green-tinged black coat in the sunlight. She's very affectionate.",
+    "parentage": "Dam: Buttercup, Sire: Rex",
+    "image": "clover.webp"
+  },
+  {
+    "name": "Thunder",
+    "gender": "Male",
+    "dob": "2024-06-30",
+    "description": "Thunder has a deep, resonant moo that sounds like distant thunder. He has a dark brown coat with black spots.",
+    "parentage": "Dam: Daisy, Sire: Titan",
+    "image": "thunder.webp"
+  },
+  {
+    "name": "Blossom",
+    "gender": "Female",
+    "dob": "2024-10-10",
+    "description": "Blossom has a unique pink tinge to her light brown coat. She's playful and enjoys being around the other calves.",
+    "parentage": "Dam: Rose, Sire: Rex",
+    "image": "blossom.webp"
+  }
+]
