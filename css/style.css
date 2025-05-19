@@ -156,10 +156,23 @@ a:hover {
 
 .hero-carousel .carousel-item {
     height: 80vh;
-    min-height: 400px;
+    min-height: 500px;
+    max-height: 800px;
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     position: relative;
+}
+
+.hero-carousel .carousel-item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 1;
 }
 
 .hero-carousel .carousel-caption {
@@ -172,11 +185,67 @@ a:hover {
     transform: translateY(50%);
     left: 10%;
     text-align: left;
+    z-index: 2;
 }
 
 .hero-carousel h2 {
     color: white;
     font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.hero-carousel p {
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 1.5rem;
+}
+
+/* Responsive adjustments for hero carousel */
+@media (max-width: 992px) {
+    .hero-carousel .carousel-item {
+        height: 70vh;
+    }
+
+    .hero-carousel .carousel-caption {
+        max-width: 500px;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-carousel .carousel-item {
+        height: 60vh;
+        min-height: 400px;
+    }
+
+    .hero-carousel .carousel-caption {
+        max-width: 90%;
+        left: 5%;
+        bottom: 50%;
+        transform: translateY(50%);
+    }
+}
+
+@media (max-width: 576px) {
+    .hero-carousel .carousel-item {
+        height: 50vh;
+        min-height: 300px;
+    }
+
+    .hero-carousel .carousel-caption {
+        padding: 1.5rem;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+    }
+
+    .hero-carousel h2 {
+        font-size: 1.75rem;
+    }
+
+    .hero-carousel p {
+        font-size: 0.9rem;
+        margin-bottom: 1rem;
+    }
 }
 
 /* === Products Section === */
