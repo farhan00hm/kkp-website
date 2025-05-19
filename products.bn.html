@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="কেকেপি - খন্দকার খামার প্রকল্প থেকে জৈব ডেইরি, হাঁস-মুরগি, গবাদি পশু এবং আরও অনেক পণ্য দেখুন।">
+    <meta name="keywords" content="খামারের পণ্য, জৈব পণ্য, ডেইরি, হাঁস-মুরগি, গবাদি পশু, কুকুর প্রজনন কেন্দ্র, কুমিল্লা, বাংলাদেশ">
+
+    <title>পণ্য সমূহ | কেকেপি – খন্দকার খামার প্রকল্প</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/logo/kkp-favicon.png">
+
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body lang="bn">
+
+<!-- Header -->
+<header id="header"></header>
+
+<!-- Page Title -->
+<section class="py-5" style="background-color: var(--light-gray);">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h1>আমাদের পণ্য সমূহ</h1>
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb justify-content-center">
+                        <li class="breadcrumb-item"><a href="index.bn.html">হোম</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">পণ্য সমূহ</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Product Categories -->
+<section class="section">
+    <div class="container">
+        <div class="row mb-5">
+            <div class="col-md-3 mb-4">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <i class="fas fa-cow fa-3x mb-3" style="color: var(--warm-brown);"></i>
+                        <h4>ডেইরি</h4>
+                        <p>আমাদের মুক্ত বিচরণের গরু থেকে তাজা দুধ, দই, ঘি এবং অন্যান্য ডেইরি পণ্য।</p>
+                        <a href="#dairy" class="btn btn-sm btn-outline-primary filter-btn" data-category="Dairy">ডেইরি পণ্য দেখুন</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <i class="fas fa-drumstick-bite fa-3x mb-3" style="color: var(--warm-brown);"></i>
+                        <h4>হাঁস-মুরগি</h4>
+                        <p>প্রাকৃতিকভাবে লালিত মুক্ত বিচরণের মুরগি, হাঁস, রাজহাঁস এবং খামারের তাজা ডিম।</p>
+                        <a href="#poultry" class="btn btn-sm btn-outline-primary filter-btn" data-category="Poultry">হাঁস-মুরগি পণ্য দেখুন</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <i class="fas fa-paw fa-3x mb-3" style="color: var(--warm-brown);"></i>
+                        <h4>কুকুর প্রজনন কেন্দ্র</h4>
+                        <p>সঠিক টিকাদান এবং নথিপত্র সহ সুস্থ পাপি।</p>
+                        <a href="#kennel" class="btn btn-sm btn-outline-primary filter-btn" data-category="Kennel">কেনেল পণ্য দেখুন</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <i class="fas fa-leaf fa-3x mb-3" style="color: var(--warm-brown);"></i>
+                        <h4>অন্যান্য</h4>
+                        <p>মধু, সবজি এবং মৌসুমী পণ্য সহ অতিরিক্ত খামার পণ্য।</p>
+                        <a href="#others" class="btn btn-sm btn-outline-primary filter-btn" data-category="Others">অন্যান্য পণ্য দেখুন</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Filter Controls -->
+        <div class="mb-4">
+            <div class="d-flex justify-content-between align-items-center">
+                <div>
+                    <button class="btn btn-primary filter-btn me-2" data-category="all">সকল পণ্য</button>
+                    <div class="btn-group" role="group">
+                        <button class="btn btn-outline-primary filter-btn" data-category="Dairy">ডেইরি</button>
+                        <button class="btn btn-outline-primary filter-btn" data-category="Poultry">হাঁস-মুরগি</button>
+                        <button class="btn btn-outline-primary filter-btn" data-category="Cattle">গবাদি পশু</button>
+                        <button class="btn btn-outline-primary filter-btn" data-category="Kennel">কেনেল</button>
+                        <button class="btn btn-outline-primary filter-btn" data-category="Others">অন্যান্য</button>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center">
+                    <label for="sortProducts" class="me-2">সাজানোর ক্রম:</label>
+                    <select id="sortProducts" class="form-select">
+                        <option value="default">ডিফল্ট</option>
+                        <option value="price-low">দাম: কম থেকে বেশি</option>
+                        <option value="price-high">দাম: বেশি থেকে কম</option>
+                        <option value="name">নাম: A থেকে Z</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <!-- Products List -->
+        <div class="products-container">
+            <!-- Products will be loaded dynamically via JavaScript -->
+            <div class="text-center py-5 loading-indicator">
+                <div class="spinner-border text-primary" role="status">
+                    <span class="visually-hidden">লোড হচ্ছে...</span>
+                </div>
+                <p class="mt-2">পণ্য লোড হচ্ছে...</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Ordering Information -->
+<section class="section bg-light">
+    <div class="container">
+        <h2 class="section-title">অর্ডার করার নিয়ম</h2>
+        <div class="row">
+            <div class="col-md-6 mb-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h4 class="mb-3"><i class="fab fa-whatsapp text-success me-2"></i> হোয়াটসঅ্যাপ অর্ডার</h4>
+                        <p>দ্রুত এবং সহজ অর্ডারের জন্য হোয়াটসঅ্যাপের মাধ্যমে সরাসরি আমাদের অর্ডার পাঠান।</p>
+                        <ol>
+                            <li>পণ্য কার্টে যোগ করুন</li>
+                            <li>প্রস্তুত হলে কার্ট বাটনে ক্লিক করুন</li>
+                            <li>আপনার অর্ডার পর্যালোচনা করুন এবং "হোয়াটসঅ্যাপের মাধ্যমে অর্ডার করুন" ক্লিক করুন</li>
+                            <li>যোগাযোগ করা হলে আপনার বিবরণ নিশ্চিত করুন</li>
+                        </ol>
+                        <a href="https://wa.me/8801811936618" target="_blank" class="btn btn-success">
+                            <i class="fab fa-whatsapp"></i> হোয়াটসঅ্যাপ অর্ডার
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h4 class="mb-3"><i class="fab fa-facebook-messenger text-primary me-2"></i> মেসেঞ্জার অর্ডার</h4>
+                        <p>আপনার অর্ডার দেওয়ার জন্য এবং পণ্য সম্পর্কে জানতে ফেসবুক মেসেঞ্জারের মাধ্যমে আমাদের সাথে যোগাযোগ করুন।</p>
+                        <ol>
+                            <li>আপনার পণ্যের প্রয়োজনীয়তা সহ আমাদের একটি বার্তা পাঠান</li>
+                            <li>আপনার ডেলিভারি ঠিকানা এবং যোগাযোগের বিবরণ প্রদান করুন</li>
+                            <li>যোগাযোগ করা হলে আপনার অর্ডার নিশ্চিত করুন</li>
+                            <li>আপনার দোরগোড়ায় ডেলিভারি গ্রহণ করুন</li>
+                        </ol>
+                        <a href="https://m.me/khundkar.khamar.prakalpa" target="_blank" class="btn btn-primary">
+                            <i class="fab fa-facebook-messenger"></i> মেসেঞ্জার অর্ডার
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Delivery Information -->
+<section class="section">
+    <div class="container">
+        <h2 class="section-title">ডেলিভারি তথ্য</h2>
+        <div class="row">
+            <div class="col-md-6 mb-4 mb-md-0">
+                <h4>ডেলিভারি এলাকা</h4>
+                <ul>
+                    <li>কুমিল্লা শহর: দুপুর ১২টার আগে অর্ডার করলে একই দিনে ডেলিভারি</li>
+                    <li>ঢাকা শহর: বিকেল ৫টার আগে অর্ডার করলে পরের দিন ডেলিভারি</li>
+                    <li>অন্যান্য এলাকা: উপলব্ধতা এবং ডেলিভারির সময়সীমার জন্য দয়া করে আমাদের সাথে যোগাযোগ করুন</li>
+                </ul>
+
+                <h4 class="mt-4">ডেলিভারি চার্জ</h4>
+                <table class="table table-bordered">
+                    <thead>
+                    <tr>
+                        <th>অবস্থান</th>
+                        <th>অর্ডারের মূল্য</th>
+                        <th>ডেলিভারি ফি</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>কুমিল্লা শহর</td>
+                        <td>৳৫০০ এর নিচে</td>
+                        <td>৳৫০</td>
+                    </tr>
+                    <tr>
+                        <td>কুমিল্লা শহর</td>
+                        <td>৳৫০০ এর উপরে</td>
+                        <td>ফ্রি</td>
+                    </tr>
+                    <tr>
+                        <td>ঢাকা শহর</td>
+                        <td>৳১০০০ এর নিচে</td>
+                        <td>৳১০০</td>
+                    </tr>
+                    <tr>
+                        <td>ঢাকা শহর</td>
+                        <td>৳১০০০ এর উপরে</td>
+                        <td>ফ্রি</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-md-6">
+                <h4>পেমেন্ট পদ্ধতি</h4>
+                <div class="mb-4">
+                    <h5 class="mb-3">ক্যাশ অন ডেলিভারি</h5>
+                    <p>আপনার অর্ডার আপনার দোরগোড়ায় ডেলিভারি হলে নগদ অর্থ দিয়ে পেমেন্ট করুন।</p>
+                </div>
+                <div class="mb-4">
+                    <h5 class="mb-3">মোবাইল ব্যাংকিং</h5>
+                    <p>ডেলিভারির আগে বিকাশ, নগদ বা রকেটের মাধ্যমে পেমেন্ট করুন।</p>
+                    <ul>
+                        <li>বিকাশ: ০১৮১১-৯৩৬৬১৮</li>
+                        <li>নগদ: ০১৮১১-৯৩৬৬১৮</li>
+                        <li>রকেট: ০১৮১১-৯৩৬৬১৮</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer id="footer"></footer>
+
+<!-- Bootstrap JS -->
+<script src="js/bootstrap.bundle.min.js"></script>
+<!-- JavaScript to load header and footer -->
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Load header
+        fetch('header.bn.html')
+            .then(response => response.text())
+            .then(data => {
+            document.getElementById('header').innerHTML = data;
+
+            // After loading header, initialize language switcher
+            const languageScript = document.createElement('script');
+            languageScript.src = 'js/language.js';
+            document.body.appendChild(languageScript);
+        });
+
+        // Load footer
+        fetch('footer.bn.html')
+            .then(response => response.text())
+            .then(data => {
+            document.getElementById('footer').innerHTML = data;
+        });
+    });
+</script>
+
+<!-- Custom Scripts -->
+<script src="js/cart.js"></script>
+<script src="js/main.js"></script>
+
+<!-- Additional script for products page functionality -->
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        let allProducts = [];
+        let currentFilter = 'all';
+        let currentSort = 'default';
+
+        // Fetch products data
+        fetch('data/products.json')
+            .then(response => response.json())
+            .then(data => {
+            allProducts = data;
+            displayProducts(allProducts);
+
+            // Hide loading indicator
+            document.querySelector('.loading-indicator').style.display = 'none';
+        })
+            .catch(error => {
+            console.error('Error loading products:', error);
+            document.querySelector('.products-container').innerHTML = `
+          <div class="alert alert-danger">
+            পণ্য লোড করতে সমস্যা হয়েছে। দয়া করে পরে আবার চেষ্টা করুন।
+          </div>
+        `;
+        });
+
+        // Add event listeners to filter buttons
+        document.querySelectorAll('.filter-btn').forEach(button => {
+            button.addEventListener('click', function(e) {
+                e.preventDefault();
+
+                // Update active button
+                document.querySelectorAll('.filter-btn').forEach(btn => {
+                    btn.classList.remove('active');
+                });
+                this.classList.add('active');
+
+                // Get category filter
+                currentFilter = this.getAttribute('data-category');
+
+                // Apply filters and sort
+                filterAndSortProducts();
+            });
+        });
+
+        // Add event listener to sort select
+        document.getElementById('sortProducts').addEventListener('change', function() {
+            currentSort = this.value;
+            filterAndSortProducts();
+        });
+
+        // Filter and sort products based on current selections
+        function filterAndSortProducts() {
+            let filteredProducts = [...allProducts];
+
+            // Apply category filter
+            if (currentFilter !== 'all') {
+                filteredProducts = filteredProducts.filter(product => product.category === currentFilter);
+            }
+
+            // Apply sorting
+            switch(currentSort) {
+                case 'price-low':
+                    filteredProducts.sort((a, b) => a.cumillaPrice - b.cumillaPrice);
+                    break;
+                case 'price-high':
+                    filteredProducts.sort((a, b) => b.cumillaPrice - a.cumillaPrice);
+                    break;
+                case 'name':
+                    filteredProducts.sort((a, b) => a.name_bn.localeCompare(b.name_bn));
+                    break;
+                default:
+                    // Default sorting by category
+                    filteredProducts.sort((a, b) => a.category.localeCompare(b.category));
+            }
+
+            // Display filtered and sorted products
+            displayProducts(filteredProducts);
+        }
+
+        // Display products in the container
+        function displayProducts(products) {
+            const productsContainer = document.querySelector('.products-container');
+
+            // Clear container
+            productsContainer.innerHTML = '';
+
+            // Check if products exist
+            if (products.length === 0) {
+                productsContainer.innerHTML = `
+          <div class="alert alert-info">
+            এই বিভাগে কোন পণ্য পাওয়া যায়নি। অনুগ্রহ করে অন্য বিভাগ চেষ্টা করুন।
+          </div>
+        `;
+                return;
+            }
+
+            // Group products by category
+            const categories = {};
+            products.forEach(product => {
+                if (!categories[product.category]) {
+                    categories[product.category] = [];
+                }
+                categories[product.category].push(product);
+            });
+
+            // Translation for category names
+            const categoryTranslations = {
+                'Dairy': 'ডেইরি',
+                'Poultry': 'হাঁস-মুরগি',
+                'Cattle': 'গবাদি পশু',
+                'Kennel': 'কুকুর প্রজনন কেন্দ্র',
+                'Others': 'অন্যান্য'
+            };
+
+            // Add products by category
+            Object.entries(categories).forEach(([category, categoryProducts]) => {
+                // Add category title with anchor
+                const categorySection = document.createElement('div');
+                categorySection.className = 'mb-5';
+                categorySection.innerHTML = `
+          <h2 class="section-title" id="${category.toLowerCase()}">${categoryTranslations[category] || category}</h2>
+          <div class="row product-row"></div>
+        `;
+
+                const productRow = categorySection.querySelector('.product-row');
+
+                // Add products
+                categoryProducts.forEach(product => {
+                    const col = document.createElement('div');
+                    col.className = 'col-lg-4 col-md-6 col-sm-12 mb-4';
+
+                    col.innerHTML = `
+            <div class="product-card">
+              <div class="product-img" style="background-image: url('img/products/${product.image}')"></div>
+              <div class="product-details">
+                <h4 class="product-title">${product.name_bn}</h4>
+                <p>${product.description_bn}</p>
+                <div class="product-price">
+                  <div class="row">
+                    <div class="col-6">
+                      <small class="product-location">কুমিল্লা</small>
+                      <div>৳ ${product.cumillaPrice} ${product.unit}</div>
+                    </div>
+                    <div class="col-6">
+                      <small class="product-location">ঢাকা</small>
+                      <div>৳ ${product.dhakaPrice} ${product.unit}</div>
+                    </div>
+                  </div>
+                </div>
+                <button class="btn btn-primary add-to-cart" data-product-id="${product.id}">
+                  <i class="fas fa-shopping-cart"></i> কার্টে যোগ করুন
+                </button>
+              </div>
+            </div>
+          `;
+
+                    productRow.appendChild(col);
+                });
+
+                productsContainer.appendChild(categorySection);
+            });
+
+            // Re-add event listeners to new buttons
+            document.querySelectorAll('.add-to-cart').forEach(button => {
+                button.addEventListener('click', function() {
+                    const productId = this.getAttribute('data-product-id');
+                    addToCart(productId);
+                });
+            });
+        }
+    });
+</script>
+
+<!-- Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-E6HE2QC2LJ"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-E6HE2QC2LJ');
+</script>
+
+</body>
+</html>

@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Browse our range of organic farm products including dairy, poultry, cattle, and more from KKP - Khundkar Khamar Prakalpa.">
+    <meta name="keywords" content="farm products, organic products, dairy, poultry, cattle, kennel, cumilla, bangladesh">
+
+    <title>Products | KKP – Khundkar Khamar Prakalpa</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/logo/kkp-favicon.png">
+
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Header -->
+<header id="header"></header>
+
+<!-- Page Title -->
+<section class="py-5" style="background-color: var(--light-gray);">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h1>Our Products</h1>
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb justify-content-center">
+                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Products</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Product Categories -->
+<section class="section">
+    <div class="container">
+        <div class="row mb-5">
+            <div class="col-md-3 mb-4">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <i class="fas fa-cow fa-3x mb-3" style="color: var(--warm-brown);"></i>
+                        <h4>Dairy</h4>
+                        <p>Fresh milk, yogurt, ghee and other dairy products from our free-range cattle.</p>
+                        <a href="#dairy" class="btn btn-sm btn-outline-primary filter-btn" data-category="Dairy">View Dairy Products</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <i class="fas fa-drumstick-bite fa-3x mb-3" style="color: var(--warm-brown);"></i>
+                        <h4>Poultry</h4>
+                        <p>Free-range chickens, ducks, geese and farm-fresh eggs raised naturally.</p>
+                        <a href="#poultry" class="btn btn-sm btn-outline-primary filter-btn" data-category="Poultry">View Poultry Products</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <i class="fas fa-paw fa-3x mb-3" style="color: var(--warm-brown);"></i>
+                        <h4>Kennel</h4>
+                        <p>Healthy, vaccinated puppies with proper documentation and care.</p>
+                        <a href="#kennel" class="btn btn-sm btn-outline-primary filter-btn" data-category="Kennel">View Kennel Products</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <i class="fas fa-leaf fa-3x mb-3" style="color: var(--warm-brown);"></i>
+                        <h4>Others</h4>
+                        <p>Additional farm products including honey, vegetables, and seasonal items.</p>
+                        <a href="#others" class="btn btn-sm btn-outline-primary filter-btn" data-category="Others">View Other Products</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Filter Controls -->
+        <div class="mb-4">
+            <div class="d-flex justify-content-between align-items-center">
+                <div>
+                    <button class="btn btn-primary filter-btn me-2" data-category="all">All Products</button>
+                    <div class="btn-group" role="group">
+                        <button class="btn btn-outline-primary filter-btn" data-category="Dairy">Dairy</button>
+                        <button class="btn btn-outline-primary filter-btn" data-category="Poultry">Poultry</button>
+                        <button class="btn btn-outline-primary filter-btn" data-category="Cattle">Cattle</button>
+                        <button class="btn btn-outline-primary filter-btn" data-category="Kennel">Kennel</button>
+                        <button class="btn btn-outline-primary filter-btn" data-category="Others">Others</button>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center">
+                    <label for="sortProducts" class="me-2">Sort by:</label>
+                    <select id="sortProducts" class="form-select">
+                        <option value="default">Default</option>
+                        <option value="price-low">Price: Low to High</option>
+                        <option value="price-high">Price: High to Low</option>
+                        <option value="name">Name: A to Z</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <!-- Products List -->
+        <div class="products-container">
+            <!-- Products will be loaded dynamically via JavaScript -->
+            <div class="text-center py-5 loading-indicator">
+                <div class="spinner-border text-primary" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+                <p class="mt-2">Loading products...</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Ordering Information -->
+<section class="section bg-light">
+    <div class="container">
+        <h2 class="section-title">How to Order</h2>
+        <div class="row">
+            <div class="col-md-6 mb-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h4 class="mb-3"><i class="fab fa-whatsapp text-success me-2"></i> WhatsApp Order</h4>
+                        <p>Send us your order directly via WhatsApp for quick and easy ordering.</p>
+                        <ol>
+                            <li>Add products to your cart</li>
+                            <li>Click the cart button when ready</li>
+                            <li>Review your order and click "Order via WhatsApp"</li>
+                            <li>Confirm your details when contacted</li>
+                        </ol>
+                        <a href="https://wa.me/8801811936618" target="_blank" class="btn btn-success">
+                            <i class="fab fa-whatsapp"></i> WhatsApp Order
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h4 class="mb-3"><i class="fab fa-facebook-messenger text-primary me-2"></i> Messenger Order</h4>
+                        <p>Contact us through Facebook Messenger to place your order and inquire about products.</p>
+                        <ol>
+                            <li>Send us a message with your product requirements</li>
+                            <li>Provide your delivery address and contact details</li>
+                            <li>Confirm your order when contacted</li>
+                            <li>Receive delivery at your doorstep</li>
+                        </ol>
+                        <a href="https://m.me/khundkar.khamar.prakalpa" target="_blank" class="btn btn-primary">
+                            <i class="fab fa-facebook-messenger"></i> Messenger Order
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Delivery Information -->
+<section class="section">
+    <div class="container">
+        <h2 class="section-title">Delivery Information</h2>
+        <div class="row">
+            <div class="col-md-6 mb-4 mb-md-0">
+                <h4>Delivery Areas</h4>
+                <ul>
+                    <li>Cumilla City: Same-day delivery for orders placed before 12 PM</li>
+                    <li>Dhaka City: Next-day delivery for orders placed before 5 PM</li>
+                    <li>Other Areas: Please contact us for availability and delivery timeline</li>
+                </ul>
+
+                <h4 class="mt-4">Delivery Charges</h4>
+                <table class="table table-bordered">
+                    <thead>
+                    <tr>
+                        <th>Location</th>
+                        <th>Order Value</th>
+                        <th>Delivery Fee</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>Cumilla City</td>
+                        <td>Below ৳500</td>
+                        <td>৳50</td>
+                    </tr>
+                    <tr>
+                        <td>Cumilla City</td>
+                        <td>Above ৳500</td>
+                        <td>Free</td>
+                    </tr>
+                    <tr>
+                        <td>Dhaka City</td>
+                        <td>Below ৳1000</td>
+                        <td>৳100</td>
+                    </tr>
+                    <tr>
+                        <td>Dhaka City</td>
+                        <td>Above ৳1000</td>
+                        <td>Free</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-md-6">
+                <h4>Payment Methods</h4>
+                <div class="mb-4">
+                    <h5 class="mb-3">Cash on Delivery</h5>
+                    <p>Pay with cash when your order is delivered to your doorstep.</p>
+                </div>
+                <div class="mb-4">
+                    <h5 class="mb-3">Mobile Banking</h5>
+                    <p>Make payment through bKash, Nagad, or Rocket before delivery.</p>
+                    <ul>
+                        <li>bKash: 01811-936618</li>
+                        <li>Nagad: 01811-936618</li>
+                        <li>Rocket: 01811-936618</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer id="footer"></footer>
+
+<!-- Bootstrap JS -->
+<script src="js/bootstrap.bundle.min.js"></script>
+<!-- JavaScript to load header and footer -->
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Load header
+        fetch('header.html')
+            .then(response => response.text())
+            .then(data => {
+            document.getElementById('header').innerHTML = data;
+
+            // After loading header, initialize language switcher
+            const languageScript = document.createElement('script');
+            languageScript.src = 'js/language.js';
+            document.body.appendChild(languageScript);
+        });
+
+        // Load footer
+        fetch('footer.html')
+            .then(response => response.text())
+            .then(data => {
+            document.getElementById('footer').innerHTML = data;
+        });
+    });
+</script>
+
+<!-- Custom Scripts -->
+<script src="js/cart.js"></script>
+<script src="js/main.js"></script>
+
+<!-- Additional script for products page functionality -->
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        let allProducts = [];
+        let currentFilter = 'all';
+        let currentSort = 'default';
+
+        // Fetch products data
+        fetch('data/products.json')
+            .then(response => response.json())
+            .then(data => {
+            allProducts = data;
+            displayProducts(allProducts);
+
+            // Hide loading indicator
+            document.querySelector('.loading-indicator').style.display = 'none';
+        })
+            .catch(error => {
+            console.error('Error loading products:', error);
+            document.querySelector('.products-container').innerHTML = `
+          <div class="alert alert-danger">
+            Error loading products. Please try again later.
+          </div>
+        `;
+        });
+
+        // Add event listeners to filter buttons
+        document.querySelectorAll('.filter-btn').forEach(button => {
+            button.addEventListener('click', function(e) {
+                e.preventDefault();
+
+                // Update active button
+                document.querySelectorAll('.filter-btn').forEach(btn => {
+                    btn.classList.remove('active');
+                });
+                this.classList.add('active');
+
+                // Get category filter
+                currentFilter = this.getAttribute('data-category');
+
+                // Apply filters and sort
+                filterAndSortProducts();
+            });
+        });
+
+        // Add event listener to sort select
+        document.getElementById('sortProducts').addEventListener('change', function() {
+            currentSort = this.value;
+            filterAndSortProducts();
+        });
+
+        // Filter and sort products based on current selections
+        function filterAndSortProducts() {
+            let filteredProducts = [...allProducts];
+
+            // Apply category filter
+            if (currentFilter !== 'all') {
+                filteredProducts = filteredProducts.filter(product => product.category === currentFilter);
+            }
+
+            // Apply sorting
+            switch(currentSort) {
+                case 'price-low':
+                    filteredProducts.sort((a, b) => a.cumillaPrice - b.cumillaPrice);
+                    break;
+                case 'price-high':
+                    filteredProducts.sort((a, b) => b.cumillaPrice - a.cumillaPrice);
+                    break;
+                case 'name':
+                    filteredProducts.sort((a, b) => a.name_en.localeCompare(b.name_en));
+                    break;
+                default:
+                    // Default sorting by category
+                    filteredProducts.sort((a, b) => a.category.localeCompare(b.category));
+            }
+
+            // Display filtered and sorted products
+            displayProducts(filteredProducts);
+        }
+
+        // Display products in the container
+        function displayProducts(products) {
+            const productsContainer = document.querySelector('.products-container');
+
+            // Clear container
+            productsContainer.innerHTML = '';
+
+            // Check if products exist
+            if (products.length === 0) {
+                productsContainer.innerHTML = `
+          <div class="alert alert-info">
+            No products found for this category. Please try another category.
+          </div>
+        `;
+                return;
+            }
+
+            // Group products by category
+            const categories = {};
+            products.forEach(product => {
+                if (!categories[product.category]) {
+                    categories[product.category] = [];
+                }
+                categories[product.category].push(product);
+            });
+
+            // Add products by category
+            Object.entries(categories).forEach(([category, categoryProducts]) => {
+                // Add category title with anchor
+                const categorySection = document.createElement('div');
+                categorySection.className = 'mb-5';
+                categorySection.innerHTML = `
+          <h2 class="section-title" id="${category.toLowerCase()}">${category}</h2>
+          <div class="row product-row"></div>
+        `;
+
+                const productRow = categorySection.querySelector('.product-row');
+
+                // Add products
+                categoryProducts.forEach(product => {
+                    const col = document.createElement('div');
+                    col.className = 'col-lg-4 col-md-6 col-sm-12 mb-4';
+
+                    col.innerHTML = `
+            <div class="product-card">
+              <div class="product-img" style="background-image: url('img/products/${product.image}')"></div>
+              <div class="product-details">
+                <h4 class="product-title">${product.name_en}</h4>
+                <p>${product.description_en}</p>
+                <div class="product-price">
+                  <div class="row">
+                    <div class="col-6">
+                      <small class="product-location">Cumilla</small>
+                      <div>৳ ${product.cumillaPrice} ${product.unit}</div>
+                    </div>
+                    <div class="col-6">
+                      <small class="product-location">Dhaka</small>
+                      <div>৳ ${product.dhakaPrice} ${product.unit}</div>
+                    </div>
+                  </div>
+                </div>
+                <button class="btn btn-primary add-to-cart" data-product-id="${product.id}">
+                  <i class="fas fa-shopping-cart"></i> Add to Cart
+                </button>
+              </div>
+            </div>
+          `;
+
+                    productRow.appendChild(col);
+                });
+
+                productsContainer.appendChild(categorySection);
+            });
+
+            // Re-add event listeners to new buttons
+            document.querySelectorAll('.add-to-cart').forEach(button => {
+                button.addEventListener('click', function() {
+                    const productId = this.getAttribute('data-product-id');
+                    addToCart(productId);
+                });
+            });
+        }
+    });
+</script>
+
+<!-- Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-E6HE2QC2LJ"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-E6HE2QC2LJ');
+</script>
+
+</body>
+</html>
