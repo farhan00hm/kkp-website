@@ -60,13 +60,18 @@ body {
 /* Hero Section */
 .hero {
   position: relative;
-  height: 70vh;
-  background-size: cover;
-  background-position: center center;
+  width: 100%;
+  height: auto; /* Auto height based on aspect ratio */
+  padding-top: 56.25%; /* Aspect ratio 16:9 */
+  background-image: url('assets/images/hero-bg.webp');
+  background-size: contain; /* Ensures entire image is shown */
   background-repeat: no-repeat;
+  background-position: center top;
   color: var(--light-text);
   display: flex;
   align-items: center;
+  justify-content: center;
+  overflow: hidden;
 }
 
 .hero-overlay {
@@ -79,9 +84,19 @@ body {
 }
 
 .hero-content {
+  position: absolute;
+  z-index: 1;
+  text-align: center;
+  width: 100%;
+  padding: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/*.hero-content {
   position: relative;
   z-index: 1;
-}
+}*/
 
 .hero h1 {
   font-size: 3rem;
@@ -348,10 +363,32 @@ footer {
   font-size: 12px;
 }
 
-/* Navbar Brand with Title */
+/* Navbar Brand with Title *//*
 .navbar-brand {
   display: flex;
   align-items: center;
+}*/
+
+.navbar .container,
+.navbar .navbar-collapse {
+  display: flex;
+  justify-content: space-between; /* distribute items evenly */
+  align-items: center;
+  width: 100%;
+}
+
+.navbar-nav {
+  flex-grow: 1;
+  justify-content: center;
+  gap: 1rem; /* Adds uniform spacing between nav items */
+}
+
+.navbar-brand {
+  margin-right: auto; /* pushes nav items towards the center */
+}
+
+.lang-toggle {
+  margin-left: auto; /* pushes nav items towards the center */
 }
 
 .site-title {
