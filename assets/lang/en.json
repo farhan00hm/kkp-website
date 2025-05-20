@@ -1,0 +1,119 @@
+{
+  "global": {
+    "siteName": "KKP – Khundkar Khamar Prakalpa",
+    "siteTitle": "KKP – Khundkar Khamar Prakalpa",
+    "siteTitleBn": "কেকেপি – খন্দকার খামার প্রকল্প",
+    "tagline": "Organic Farming & Ethical Animal Care",
+    "phone": "+8801811-936618",
+    "email": "info@kkp.com.bd",
+    "address": "Keronkhal, Chandina, Cumilla, Bangladesh"
+  },
+  "navigation": {
+    "home": "Home",
+    "about": "About Us",
+    "operations": "Our Operations",
+    "contact": "Contact",
+    "faq": "FAQ",
+    "cattle": "Cattle",
+    "poultry": "Poultry",
+    "kennel": "Kennel",
+    "others": "Others"
+  },
+  "hero": {
+    "title": "Organic Farming & Ethical Animal Care",
+    "subtitle": "We promote free-range practices and natural feeding for healthier animals and better products",
+    "cta": "Explore Products"
+  },
+  "about": {
+    "title": "About KKP",
+    "description": "KKP is an integrated agro farm located in Keronkhal, Chandina, Cumilla, promoting organic feeding and ethical treatment of animals through free-ranging practices. We specialize in dairy, poultry, and kennel operations.",
+    "values": {
+      "title": "Our Values",
+      "items": [
+        "Local Feed: We use locally sourced, natural feed for our animals",
+        "Free Range: Our animals are allowed to roam freely in natural environments",
+        "Ethical Practices: We maintain the highest standards of animal welfare",
+        "Quality Products: We produce premium quality, healthy products"
+      ]
+    }
+  },
+  "products": {
+    "title": "Featured Products",
+    "viewAll": "View All Products",
+    "milk": {
+      "title": "Fresh Milk",
+      "description": "Pure, fresh cow milk from free-range cattle, collected daily.",
+      "unit": "liter"
+    },
+    "eggs": {
+      "title": "Free-Range Eggs",
+      "description": "Organic eggs from free-range chickens fed with natural grains.",
+      "unit": "dozen"
+    },
+    "ghee": {
+      "title": "Pure Ghee",
+      "description": "Traditional homemade ghee prepared from our farm's fresh milk.",
+      "unit": "kg"
+    },
+    "curd": {
+      "title": "Natural Yogurt",
+      "description": "Creamy, probiotic-rich yogurt made from pure cow's milk.",
+      "unit": "kg"
+    },
+    "cumilla": "Cumilla",
+    "dhaka": "Dhaka",
+    "addToCart": "Add to Cart"
+  },
+  "operations": {
+    "title": "Our Operations",
+    "cattle": {
+      "title": "Cattle Farming",
+      "description": "Our cows are raised in a free-range environment, ensuring they receive proper nutrition and care for the best quality milk and meat products."
+    },
+    "poultry": {
+      "title": "Poultry",
+      "description": "Our free-range poultry provides nutritious eggs and quality meat, with birds living in natural conditions and fed organic feed."
+    },
+    "kennel": {
+      "title": "Dog Kennel",
+      "description": "We breed and raise healthy puppies with proper care, nutrition, and socialization to ensure they become wonderful companions."
+    },
+    "others": {
+      "title": "Other Operations",
+      "description": "We also maintain fisheries and grow agricultural crops using sustainable practices that respect the environment."
+    },
+    "learnMore": "Learn More"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "info": "Get in Touch",
+    "address": "Address",
+    "phone": "Phone",
+    "email": "Email",
+    "formTitle": "Send a Message",
+    "nameLabel": "Your Name",
+    "emailLabel": "Your Email",
+    "subjectLabel": "Subject",
+    "messageLabel": "Message",
+    "sendButton": "Send Message"
+  },
+  "footer": {
+    "about": "About KKP",
+    "aboutText": "KKP is an agro farm promoting organic feeding and ethical treatment of animals through free-ranging practices.",
+    "quickLinks": "Quick Links",
+    "products": "Products",
+    "copyright": "© 2025 KKP - Khundkar Khamar Prakalpa. All Rights Reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  },
+  "cart": {
+    "title": "Your Cart",
+    "empty": "Your cart is empty",
+    "total": "Total",
+    "checkout": "Checkout",
+    "whatsappOrder": "Order via WhatsApp",
+    "messengerOrder": "Order via Messenger",
+    "orderMessage": "Hello, I would like to place an order for:",
+    "confirmationMessage": "Please contact me to confirm the order."
+  }
+}
