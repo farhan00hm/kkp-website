@@ -1,0 +1,456 @@
+/* responsive.css */
+
+/* General responsive adjustments */
+@media (max-width: 1200px) {
+  /* Large devices */
+  .container {
+    max-width: 960px;
+  }
+
+  .hero-banner {
+    height: 70vh;
+  }
+
+  .hero-content h1 {
+    font-size: 2.4rem;
+  }
+}
+
+@media (max-width: 992px) {
+  /* Medium devices */
+  .container {
+    max-width: 720px;
+  }
+
+  .hero-banner {
+    height: 65vh;
+    min-height: 450px;
+  }
+
+  .hero-content {
+    max-width: 500px;
+    padding: 1.75rem;
+  }
+
+  .hero-content h1 {
+    font-size: 2.25rem;
+  }
+
+  .hero-content p {
+    font-size: 1.1rem;
+  }
+
+  /* Improve navigation on medium devices */
+  .navbar-nav {
+    flex-grow: 0;
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  /* Mobile Navigation Fixes */
+  .navbar-collapse {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: white;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    z-index: 1000;
+    transition: all 0.3s ease;
+    max-height: 0;
+    overflow: hidden;
+    display: block;
+  }
+
+  .navbar-collapse.show {
+    max-height: 80vh;
+    overflow-y: auto;
+  }
+
+  .navbar-nav {
+    padding: 0.5rem 0;
+  }
+
+  .navbar-nav .nav-item {
+    margin-bottom: 0.5rem;
+  }
+
+  .dropdown-menu {
+    border: none;
+    box-shadow: none;
+    padding-left: 1rem;
+    background-color: rgba(0, 0, 0, 0.02);
+    margin: 0.5rem 0;
+    display: none;
+    position: static !important;
+    transform: none !important;
+    float: none;
+    width: 100%;
+  }
+
+  .dropdown-menu.show {
+    display: block;
+  }
+
+  .navbar-nav .dropdown-item {
+    padding: 0.5rem 1rem;
+  }
+
+  .nav-link.dropdown-toggle::after {
+    float: right;
+    margin-top: 0.5rem;
+  }
+
+  .lang-toggle {
+    margin-top: 0.5rem;
+    width: 100%;
+    text-align: center;
+  }
+
+  .navbar-brand img {
+    height: 45px;
+  }
+
+  .brand-text {
+    font-size: 0.9rem;
+  }
+
+  /* Section adjustments */
+  .section {
+    padding: 3.5rem 0;
+  }
+
+  .section-title {
+    font-size: 1.8rem;
+  }
+
+  /* Product cards adjustments */
+  .product-card {
+    height: 100%;
+  }
+
+  .product-img {
+    height: 200px;
+  }
+
+  /* Operations section adjustments */
+  .operation-img {
+    height: 220px;
+  }
+
+  /* Map adjustments */
+  .map-container {
+    height: 350px;
+  }
+}
+
+@media (max-width: 768px) {
+  /* Small devices */
+  .container {
+    max-width: 540px;
+  }
+
+  /* Hero section fixes for small screens */
+  .hero-banner {
+    height: 60vh;
+    min-height: 400px;
+  }
+
+  .hero-content {
+    max-width: 90%;
+    padding: 1.5rem;
+    margin: 0 auto;
+    border-left: none;
+    border-bottom: 5px solid var(--gold);
+    text-align: center;
+  }
+
+  .hero-banner .overlay {
+    background-color: rgba(0, 0, 0, 0.6); /* Darker overlay for better text visibility */
+  }
+
+  .hero-content h1 {
+    font-size: 1.75rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .hero-content p {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  /* Section spacing */
+  .section {
+    padding: 3rem 0;
+  }
+
+  .section-title {
+    font-size: 1.75rem;
+    margin-bottom: 2rem;
+  }
+
+  .section-title:after {
+    width: 60px;
+  }
+
+  /* Footer improvements */
+  footer {
+    text-align: center;
+    padding-bottom: 5rem; /* Add space for the FAB cart button */
+  }
+
+  footer .col-md-6:not(:last-child) {
+    margin-bottom: 2rem;
+  }
+
+  .social-links {
+    justify-content: center;
+    display: flex;
+    margin-bottom: 1.5rem;
+  }
+
+  /* Contact section */
+  .map-container {
+    height: 300px;
+    margin-top: 2rem;
+  }
+
+  /* Cart FAB positioning */
+  .cart-button {
+    bottom: 20px;
+    right: 20px;
+  }
+
+  /* Product Images */
+  .product-img {
+    height: 180px;
+  }
+
+  /* Operation Cards */
+  .operation-img {
+    height: 200px;
+  }
+
+  .operation-title {
+    font-size: 1.4rem;
+  }
+
+  /* Hero section fixes for small screens */
+  .hero {
+    padding-top: 80%; /* Increase the aspect ratio for smaller screens */
+    background-position: center center;
+  }
+
+  .hero-content {
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+    transform: none;
+    top: auto;
+    left: auto;
+    width: 100%;
+  }
+
+  .hero-overlay {
+    background-color: rgba(0, 0, 0, 0.6); /* Darker overlay for better text visibility */
+  }
+
+  .hero h1 {
+    font-size: 1.75rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+  }
+}
+
+@media (max-width: 576px) {
+  /* Extra small devices */
+  .container {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  /* Fix hero for very small screens */
+  .hero-banner {
+    height: 50vh;
+    min-height: 350px;
+  }
+
+  .hero-content {
+    padding: 1rem;
+  }
+
+  .hero-content h1 {
+    font-size: 1.5rem;
+  }
+
+  .hero-content p {
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+  }
+
+  .btn-lg {
+    padding: 0.5rem 1.25rem;
+    font-size: 0.9rem;
+  }
+
+  /* Product card adjustments */
+  .product-card {
+    margin-bottom: 1.5rem;
+  }
+
+  .product-img {
+    height: 180px;
+  }
+
+  /* Fix product listings in grid */
+  .product-details {
+    padding: 1.25rem;
+  }
+
+  /* Fix form elements */
+  .form-control {
+    font-size: 0.9rem;
+    padding: 0.375rem 0.5rem;
+  }
+
+  /* Navbar brand adjustments */
+  .navbar-brand img {
+    height: 40px;
+  }
+
+  /* Fix navbar brand on very small screens */
+  .navbar-brand {
+    max-width: 70%;
+  }
+
+  .navbar-brand img {
+    max-width: 100%;
+    height: 40px;
+  }
+
+  /* Better button spacing */
+  .btn {
+    padding: 0.375rem 0.75rem;
+    font-size: 0.9rem;
+  }
+
+  /* Filter buttons in product page */
+  .filter-buttons .btn {
+    margin-bottom: 0.5rem;
+    font-size: 0.8rem;
+    padding: 0.25rem 0.5rem;
+  }
+
+  /* Navigation */
+  .navbar-toggler {
+    padding: 0.25rem 0.5rem;
+    font-size: 1rem;
+  }
+
+  /* Language toggle */
+  .lang-toggle {
+    font-size: 0.8rem;
+    padding: 0.25rem 0.5rem;
+  }
+
+  /* Section spacing */
+  .section {
+    padding: 2.5rem 0;
+  }
+
+  .section-title {
+    font-size: 1.6rem;
+    margin-bottom: 1.75rem;
+  }
+
+  /* Operation cards */
+  .operation-img {
+    height: 180px;
+  }
+
+  .operation-body {
+    padding: 1.25rem;
+  }
+
+  .operation-title {
+    font-size: 1.3rem;
+  }
+
+  /* Cart button adjustments */
+  .cart-button {
+    width: 50px;
+    height: 50px;
+    font-size: 1.1rem;
+  }
+
+  /* Fix hero for very small screens */
+  .hero {
+    padding-top: 100%; /* 1:1 aspect ratio for very small screens */
+  }
+
+  .hero h1 {
+    font-size: 1.5rem;
+  }
+
+  .hero p {
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+  }
+}
+
+/* Fix specifically for iPhone SE and other very small devices */
+@media (max-width: 375px) {
+  .hero-content h1 {
+    font-size: 1.3rem;
+  }
+
+  .hero-content p {
+    font-size: 0.8rem;
+  }
+
+  .btn {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.8rem;
+  }
+
+  /* Make sure hero content fits */
+  .hero-content {
+    padding: 0.75rem;
+  }
+
+  /* Reduce section padding */
+  .section {
+    padding: 2rem 0;
+  }
+
+  .navbar-brand img {
+    height: 35px;
+  }
+
+  .hero h1 {
+    font-size: 1.3rem;
+  }
+
+  .hero p {
+    font-size: 0.8rem;
+  }
+
+  /* Make sure hero content fits */
+  .hero-content {
+    padding: 0.75rem;
+  }
+}
+
+/* Fix for dark mode / high contrast mode users */
+@media (prefers-color-scheme: dark) {
+  .hero-banner .overlay,
+  .hero-overlay {
+    background-color: rgba(0, 0, 0, 0.7); /* Darker overlay for dark mode */
+  }
+}
