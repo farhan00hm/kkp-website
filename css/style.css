@@ -122,6 +122,8 @@ a:hover {
 
 .navbar-brand img {
     height: 60px;
+    width: auto;
+    max-width: 100%;
 }
 
 .navbar-nav .nav-link {
